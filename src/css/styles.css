@@ -281,7 +281,6 @@ img{
 /* ===== FOOTER =====*/
 .footer{
   background-color: black;
-  color: #fff;
   text-align: center;
   font-weight: var(--font-semi);
   padding: 2rem 0;
@@ -293,6 +292,10 @@ img{
 }
 .footer__social{
   margin-bottom: var(--mb-4);
+}
+.footer__social a:hover {
+  color: #eece1a;
+  transition: all 0.3s ease-out; 
 }
 .footer__icon{
   font-size: 1.5rem;
