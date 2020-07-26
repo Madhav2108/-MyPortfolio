@@ -180,7 +180,7 @@ img{
 }
 
 .menu-btn {
-  position: absolute;
+  position: fixed;
   z-index: 3;
   right: 35px;
   top: 35px;
