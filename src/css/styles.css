@@ -359,6 +359,22 @@ main {
     height: calc(100vh - 3rem);
      row-gap: 1rem;
 }
+.about{
+  height: calc(100vh - 3rem);
+     row-gap: 1rem;
+}
+.skills{
+  height: calc(100vh - 3rem);
+     row-gap: 1rem;
+}
+.work{
+  height: calc(100vh - 3rem);
+     row-gap: 1rem;
+}
+.contact{
+  height: calc(100vh - 3rem);
+     row-gap: 1rem;
+}
 
 /*-------------------------------------------------------------------------*/
 
