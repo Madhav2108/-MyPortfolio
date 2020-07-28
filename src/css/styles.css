@@ -76,19 +76,20 @@ img{
 .section-title{
   position: relative;
   font-size: 60px;
-  color: #eece1a;
-  margin-top: var(--mb-1);
-  margin-bottom: var(--mb-4);
+  color:#eece1a;
+  overflow-x: hidden;
+  margin-top: 0px;
+  margin-bottom: 5px;;
   text-align: center;
 }
 .section-title::after{
   position: absolute;
   content: "";
   width: 64px;
+  overflow-x: hidden;
   height: 0.18rem;
   left: 0;
   right: 0;
-  margin: auto;
   top: 2rem;
 
 }
@@ -180,6 +181,7 @@ img{
     margin: 0 0 5px 0;
     background: #fff;
     transition: all 0.5s ease-out; }
+     
   .menu-btn.close {
     transform: rotate(180deg); }
     .menu-btn.close .btn-line:nth-child(1) {
@@ -228,6 +230,10 @@ img{
       background-size: 100%;
       border-radius: 50%;
       border: solid 3px #eece1a; }
+      .menu-branding .portrait:hover{
+        width: 450px;
+      height: 450px;
+      }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     transition: all 0.5s ease-out; }
@@ -336,6 +342,7 @@ main {
       padding: 0.9rem; }
       main .icons a:hover {
         color: #eece1a;
+        font-size: 10px;
         transition: all 0.5s ease-out; }
   main#home {
     overflow: hidden; }
@@ -353,8 +360,9 @@ main {
   background: rgba(68, 68, 68, 0.75);
   height: calc(110vh - 3rem);
   margin: auto;
-  width :90%;
+  width :95%;
   row-gap: 1rem;
+  padding-top: 5px;;
 }
   .about__container{
 
@@ -367,11 +375,9 @@ main {
     
     }
 .about__img{
-  /*width: 50%;
-  height:83vh;*/
   height: 100%;
-  
-  width: 100%;
+  margin-top: 0rem;
+  width: 50%;
   justify-self: center;
   
 }
@@ -390,6 +396,7 @@ main {
   height: 100%;
   width: 100%;
   color :white;
+  margin: auto;
   font-size: 25px;
   justify-self: right;
   overflow-x: hidden;
@@ -398,6 +405,7 @@ main {
 }
 .about__subtitle{
   margin-bottom: var(--mb-2);
+  align-items: center;
 }
 .skills{
   height: calc(100vh - 3rem);
