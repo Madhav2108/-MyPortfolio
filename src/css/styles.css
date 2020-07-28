@@ -309,7 +309,7 @@ body {
   background: url(../img/background.jpg);
      background: rgba(68, 68, 68, 0.9), url(../img/background.jpg);
      background-attachment: fixed;
-     background-size: 100%;
+     background-size: cover;
 }
 
 h1,
@@ -416,28 +416,27 @@ main {
 }
 .skills{
   
-     background: rgba(68, 68, 68, 0.75);
-     height: calc(110vh - 3rem);
-     margin: auto;
-     width :95%;
-     row-gap: 1rem;
-     padding-top: 5px;
+  background: rgba(0, 0, 0, 0.90);
+  height: calc(110vh - 3rem);
+  margin: auto;
+  width :100%;
+  row-gap: 1rem;
+  padding-top: 5px;
    }
 .work{
-  background: rgba(68, 68, 68, 0.75);
-     height: calc(110vh - 3rem);
-     margin: auto;
-     width :95%;
-     row-gap: 1rem;
-     padding-top: 5px;
-}
+  background: rgba(0, 0, 0, 0.90);
+  height: calc(110vh - 3rem);
+  margin: auto;
+  width :100%;
+  row-gap: 1rem;
+  padding-top: 5px;}
 .contact{
-  background: rgba(68, 68, 68, 0.75);
-     height: calc(110vh - 3rem);
-     margin: auto;
-     width :95%;
-     row-gap: 1rem;
-     padding-top: 5px;
+  background: rgba(0, 0, 0, 0.90);
+  height: calc(110vh - 3rem);
+  margin: auto;
+  width :100%;
+  row-gap: 1rem;
+  padding-top: 5px;
 }
 
 /*-------------------------------------------------------------------------*/
