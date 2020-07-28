@@ -53,8 +53,17 @@ body{
   margin: var(--header-height) 0 0 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  color: var(--second-color);
-  /*background-color: black;*/
+  background-color: #202020;
+  color: #fff;
+  height: 100%;
+  margin: 0;
+  padding: 0px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+  background: url(../img/background.jpg);
+     background: rgba(68, 68, 68, 0.9), url(../img/background.jpg);
+     background-attachment: fixed;
+     background-size: cover;
 }
 h1,h2,p{
   margin: 0;
@@ -66,11 +75,6 @@ ul{
 }
 a{
   text-decoration: none;
-}
-img{
-  max-width: 100%;
-  height: auto;
-  display: block;
 }
 /*===== CLASS CSS ===== */
 .section-title{
@@ -152,7 +156,7 @@ img{
 
 @media screen and (max-width: 1200px){
 	.cursor,.cursor2,.cursor3{
-		display: none;
+		display: block;
 	}
 }
 
@@ -235,6 +239,12 @@ img{
         width: 450px;
       height: 450px;
       }
+      @media screen and (max-width: 1200px){
+        .menu-branding .portrait:hover{
+          width: 150px;
+      height: 150px; 
+        }
+      }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     transition: all 0.5s ease-out; }
@@ -269,6 +279,10 @@ img{
 .nav-item:nth-child(4) {
   transition-delay: 0.4s; }
 
+  .nav-item:nth-child(5) {
+    transition-delay: 0.5s; }
+
+    
 * {
   box-sizing: border-box; }
 
@@ -284,6 +298,8 @@ img{
   font-size: 2rem;
   color: #eece1a;
   margin-bottom: var(--mb-4);
+
+
 }
 .footer__social{
   margin-bottom: var(--mb-4);
@@ -298,19 +314,6 @@ img{
   margin: 0 var(--mb-2)
 }
 /*---------------main*/
-body {
-  background-color: #202020;
-  color: #fff;
-  height: 100%;
-  margin: 0;
-  padding: 0px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 1.5;
-  background: url(../img/background.jpg);
-     background: rgba(68, 68, 68, 0.9), url(../img/background.jpg);
-     background-attachment: fixed;
-     background-size: cover;
-}
 
 h1,
 h2,
@@ -363,9 +366,14 @@ main {
      padding: 0px;
 
 }
+img{
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
 .about{
   background: rgba(0, 0, 0, 0.90);
-  height: calc(110vh - 3rem);
+  height: calc(120vh - 3rem);
   margin: auto;
   width :100%;
   row-gap: 1rem;
@@ -384,7 +392,7 @@ main {
 .about__img{
   height: 100%;
   margin-top: 0rem;
-  width: 50%;
+  width: 100%;
   justify-self: center;
   
 }
@@ -403,11 +411,11 @@ main {
   height: 100%;
   width: 100%;
   color :white;
-  margin: auto;
+  margin: 0;
   font-size: 25px;
-  justify-self: right;
+  justify-self: center;
+  text-align: center;
   overflow-x: hidden;
-  padding-top: 20px;
 
 }
 .about__subtitle{
@@ -417,7 +425,7 @@ main {
 .skills{
   
   background: rgba(0, 0, 0, 0.90);
-  height: calc(110vh - 3rem);
+  height: calc(120vh - 3rem);
   margin: auto;
   width :100%;
   row-gap: 1rem;
@@ -425,14 +433,15 @@ main {
    }
 .work{
   background: rgba(0, 0, 0, 0.90);
-  height: calc(110vh - 3rem);
+  height: calc(120vh - 3rem);
   margin: auto;
   width :100%;
   row-gap: 1rem;
-  padding-top: 5px;}
+  padding-top: 5px;
+}
 .contact{
   background: rgba(0, 0, 0, 0.90);
-  height: calc(110vh - 3rem);
+  height: calc(120vh - 3rem);
   margin: auto;
   width :100%;
   row-gap: 1rem;
