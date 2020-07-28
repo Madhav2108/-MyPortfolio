@@ -289,7 +289,8 @@ a{
 
 /* ===== FOOTER =====*/
 .footer{
-  background-color: black;
+  background: url(../img/about.jpg);
+  background-size: cover;
   text-align: center;
   font-weight: var(--font-semi);
   padding: 2rem 0;
@@ -373,6 +374,7 @@ img{
 }
 .about{
   background: url(../img/about.jpg);
+  background-size: cover;
   background: rgba(68, 68, 68, 0.8), url(../img/about.jpg);
   height: calc(120vh - 3rem);
   margin: auto;
@@ -441,7 +443,8 @@ img{
   padding-top: 5px;
 }
 .contact{
-  background: rgba(0, 0, 0, 0.90);
+  background: url(../img/contact.jpg);
+  background-size: cover;
   height: calc(120vh - 3rem);
   margin: auto;
   width :100%;
