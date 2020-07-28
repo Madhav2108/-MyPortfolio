@@ -75,6 +75,7 @@ img{
 /*===== CLASS CSS ===== */
 .section-title{
   position: relative;
+  background: transparent;
   font-size: 60px;
   color:#eece1a;
   overflow-x: hidden;
@@ -298,17 +299,17 @@ img{
 }
 /*---------------main*/
 body {
-  background: #202020;
+  background-color: #202020;
   color: #fff;
   height: 100%;
   margin: 0;
+  padding: 0px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5;
-   background: url(../img/background.jpg);
-    background: rgba(68, 68, 68, 0.9), url(../img/background.jpg);
-    background-attachment: fixed;
-    background-size: cover;
-    width:100%;
+  background: url(../img/background.jpg);
+     background: rgba(68, 68, 68, 0.9), url(../img/background.jpg);
+     background-attachment: fixed;
+     background-size: 100%;
 }
 
 h1,
@@ -333,7 +334,7 @@ a {
   
 
 main {
-  padding: 4rem;
+  padding: 6rem;
   min-height: calc(100vh - 60px); }
   main .icons {
     margin-top: 5rem; }
@@ -345,22 +346,28 @@ main {
         font-size: 10px;
         transition: all 0.5s ease-out; }
   main#home {
+    
     overflow: hidden; }
    
 
 
 /*---------------home ----------------------------------------*/
 .home{
-    height: calc(100vh - 3rem);
+  
+    min-height: 100%;
+    min-width: 100%;
      row-gap: 1rem;
      color: #fff;
+     
+     margin: 0px;
+     padding: 0px;
 
 }
 .about{
-  background: rgba(68, 68, 68, 0.75);
+  background: rgba(0, 0, 0, 0.90);
   height: calc(110vh - 3rem);
   margin: auto;
-  width :95%;
+  width :100%;
   row-gap: 1rem;
   padding-top: 5px;
 }
