@@ -362,7 +362,7 @@ main {
   margin: auto;
   width :95%;
   row-gap: 1rem;
-  padding-top: 5px;;
+  padding-top: 5px;
 }
   .about__container{
 
@@ -405,19 +405,32 @@ main {
 }
 .about__subtitle{
   margin-bottom: var(--mb-2);
-  align-items: center;
+  align: center;
 }
 .skills{
-  height: calc(100vh - 3rem);
+  
+     background: rgba(68, 68, 68, 0.75);
+     height: calc(110vh - 3rem);
+     margin: auto;
+     width :95%;
      row-gap: 1rem;
-}
+     padding-top: 5px;
+   }
 .work{
-  height: calc(100vh - 3rem);
+  background: rgba(68, 68, 68, 0.75);
+     height: calc(110vh - 3rem);
+     margin: auto;
+     width :95%;
      row-gap: 1rem;
+     padding-top: 5px;
 }
 .contact{
-  height: calc(100vh - 3rem);
+  background: rgba(68, 68, 68, 0.75);
+     height: calc(110vh - 3rem);
+     margin: auto;
+     width :95%;
      row-gap: 1rem;
+     padding-top: 5px;
 }
 
 /*-------------------------------------------------------------------------*/
