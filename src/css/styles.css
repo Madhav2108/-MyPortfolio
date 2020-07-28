@@ -372,7 +372,8 @@ img{
   display: block;
 }
 .about{
-  background: rgba(0, 0, 0, 0.90);
+  background: url(../img/about.jpg);
+  background: rgba(68, 68, 68, 0.8), url(../img/about.jpg);
   height: calc(120vh - 3rem);
   margin: auto;
   width :100%;
