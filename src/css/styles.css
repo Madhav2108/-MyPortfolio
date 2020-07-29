@@ -446,7 +446,7 @@ img{
   padding-top: 5px;
 }
 .contact{
-  background: rgba(0, 0, 0, 0.90);
+  background: url(../img/nec.jpg);
   background-size: cover;
   height: calc(120vh - 3rem);
   margin: auto;

@@ -111,7 +111,7 @@ const navLink = document.querySelectorAll('.nav-link');
   }
 
   var ractive = new Ractive({
-    el: '#container',
+    el: '#contact',
     template: '#template',
     data: {}
   });
