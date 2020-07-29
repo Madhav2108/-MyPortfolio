@@ -443,7 +443,7 @@ img{
   padding-top: 5px;
 }
 .contact{
-  background: url(../img/contact.jpg);
+  background: rgba(0, 0, 0, 0.90);
   background-size: cover;
   height: calc(120vh - 3rem);
   margin: auto;
