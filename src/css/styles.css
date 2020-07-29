@@ -338,12 +338,15 @@ a {
   
 
 main {
+  background: url(../img/main.jpg);
+  background-size: cover;
+  background: rgba(68, 68, 68, 0.8), url(../img/main.jpg);
   padding: 6rem;
   min-height: calc(100vh - 60px); }
   main .icons {
     margin-top: 5rem; }
     main .icons a {
-    	color :black;
+    	color :#fff;
       padding: 0.9rem; }
       main .icons a:hover {
         color: #eece1a;
