@@ -109,3 +109,11 @@ const navLink = document.querySelectorAll('.nav-link');
   function o(t) {
     t.addEventListener("mouseover", n), t.addEventListener("mouseout", s)
   }
+
+  var ractive = new Ractive({
+    el: '#container',
+    template: '#template',
+    data: {}
+  });
+  
+  
